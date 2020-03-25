@@ -27,3 +27,19 @@
 <code>SELECT * FROM users</code>
 * Query Builder: 
 <code>table('users').select('*').where('...')</code>
+
+# Front-End
+### Conceitos React
+* Componente: um componente html pode ser importado para dentro de um app React como uma função;
+* JSX = JavaScript + XML: Sempre que for utilizar html dentro do javascript é necessario importar o React, mesmo que o objeto React nao esteja sento chamado diretamente;
+* Estado: o React observa o estado das variaveis;
+* Imutabilidade: as variaveis são imutáveis dentro do React, mesmo sendo chamadas variaveis. Para alterar seu valor, é necessário reassinalá-las por meio de uma função usando o useState importado de 'react.js':
+<code>
+	const [counter, setCounter] = useState(0)
+
+	// Array [valor, funcaoDeAtualizacao]
+
+	function increment() {
+		setCounter(counter + 1)
+	}
+</code>
