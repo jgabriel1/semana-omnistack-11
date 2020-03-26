@@ -43,3 +43,23 @@
 		setCounter(counter + 1)
 	}
 </code>
+
+
+## React Native
+React Native não tem as mesmas tags do html: View e Text
+
+* elementos não tem semântica;
+
+* estilização feita pela tag style que recebe um objeto com a estilização
+
+* ou dentro da propria tag;
+ 
+* separar em um arquivo pra estrutura e um arquivo para estilo;
+ 
+* todos os elementos possuem display: flex;
+
+* como os elementos de estilo são em javascript, a semantica da linguagem deve ser respeitada:
+* background-color = backgroundColor,
+* justifyContent: 'center' # transformar tags em strings;
+
+* não existe herança de estilos, a estilização deve ser feita de forma direta;
